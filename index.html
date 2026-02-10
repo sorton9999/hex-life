@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Hex Board CDN</title>
+    
+    <!-- 1. Load React and ReactDOM (Development versions) -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- 2. Load Babel to transpile JSX in the browser -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <style>
+        body { font-family: sans-serif; justify-content: center; padding: 20px; }
+    </style>
+</head>
+<body>
+
+    <!-- 3. The root element where React will render -->
+    <div id="root"></div>
+
+    <!-- 4. Write your React code here with type="text/babel" -->
+    <script type="text/babel"
+			src="./HexLife.jsx">
+    </script>
+
+</body>
+</html>
